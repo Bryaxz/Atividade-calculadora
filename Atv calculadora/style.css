@@ -1,0 +1,61 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    } 
+    
+    body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;     
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    flex-direction: column; 
+    min-height: 100vh; 
+    } 
+
+    input { 
+    border: none; 
+    color: inherit; 
+    font-size: inherit; 
+    font-weight: inherit; 
+    font-family: inherit; 
+    } 
+    
+    h1 { 
+    font-family: 'Milkshake', creps; 
+    font-size: 24px; 
+    color: #fff;
+} 
+ 
+.teclado { 
+display: grid; 
+grid-template-columns: repeat(4, 1fr); 
+gap: 10px; 
+background-color: black; 
+border-radius: 20px; 
+padding: 10px; 
+opacity: 0.8;
+} 
+
+input[type=button] { 
+border-radius: 50px; 
+cursor: pointer; 
+
+height: 80px; 
+width: 80px; 
+} 
+
+input[type=cal] { 
+background-color: black; 
+color: #cccccc;
+border-radius: 10px; 
+
+font-size: 22px; 
+height: 40px; 
+margin-bottom: 24px; 
+padding: 10px; 
+text-align: center; 
+width: 365px; 
+opacity: 0.8;
+}
